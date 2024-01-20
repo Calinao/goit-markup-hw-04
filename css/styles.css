@@ -1,0 +1,227 @@
+:root {
+    --logo: #4d5ae5;
+    --spanLogo: #2e2f42;
+    --link: #2e2f42;
+    --hovercolor: #404bbf;
+    --addressLink: #434455;
+    --sectionColor: #2e2f42;
+    --footerText: #F4F4FD;
+    --portfolioListBtn: #4d5ae5;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.nav-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    color: var(--logo);
+    text-decoration: none;
+}
+
+link {
+    text-decoration: none;
+    
+}
+
+.span-style {
+    color: var(--spanLogo);
+}
+
+
+.list {
+    list-style: none;
+    
+}
+
+.nav-link-one {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: var(--spanLogo);
+    text-decoration: none;
+}
+
+.link-one {
+    text-decoration: none;
+    color: var(--spanLogo);
+}
+
+.link-one:hover {
+    color: var(--hovercolor);
+}
+
+.link-one:focus {
+    color: var(--hovercolor);
+}
+
+.link-add {
+    text-decoration: none;
+    color: var(--addressLink);
+}
+
+.link-add:hover {
+    color: var(--hovercolor);
+}
+
+.link-add:focus {
+    color: var(--hovercolor);
+}
+
+.address {
+    font-style: normal;
+}
+
+.section-one {
+    background-color: var(--sectionColor);
+}
+
+.section-header {
+    font-size:56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: .02em;
+    color: #FFFFFF;
+}
+
+.header-btn {
+    background-color: #4D5AE5 ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    background-color: var(--hovercolor);
+}
+.header-btn:focus {
+    background-color: var(--hovercolor);
+}
+
+.heading-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+    color: var(--sectionColor);
+
+
+}
+
+.p-list-item {
+    line-height: 1.5;
+    letter-spacing: .02em;
+}
+
+.section-header-three {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: .02em;
+    color: var(--sectionColor);
+    text-transform: capitalize  ;
+}
+
+.section-four {
+    background-color: #F4F4FD;
+}
+
+.section-header-four {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: .02em;
+    text-transform: capitalize  ;
+    color: var(--sectionColor);
+}
+
+.section-four-list-item {
+
+    background-color: #FFFFFF;
+
+}
+
+.heading-list-four {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+    color: var(--sectionColor);
+
+}
+
+.p-list-item-four {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+}
+
+.index-footer {
+    background-color: var(--sectionColor);
+}
+
+.footer-text {
+    color: var(--footerText);
+    line-height: 1.5;
+    letter-spacing: .02em;
+}
+
+.footer-span-style {
+    color: var(--footerText);
+}
+
+/* portfolio */
+
+.portfolio-list-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .04em;
+    color: var(--portfolioListBtn);
+    cursor: pointer;
+    background-color: var(--footerText);
+
+}
+
+.portfolio-list-btn:hover {
+    color: #FFFFFF;
+    background-color: var(--hovercolor);
+}
+
+.portfolio-list-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--hovercolor);
+}
+
+.portfolio-link-lists {
+    text-decoration: none;
+}
+
+.portfolio-link-lists-headingtwo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+    color: var(--sectionColor);
+}
+
+.portfolio-link-lists-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: var(--addressLink);
+}
