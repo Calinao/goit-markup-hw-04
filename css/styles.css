@@ -169,15 +169,13 @@ link {
 }
 
 .list-item {
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    width: calc((100% - 72px) / 4);
 }
 
 .p-list-item {
     line-height: 1.5;
     letter-spacing: .02em;
 }
-
-
 
 .section-header-three {
     font-size: 36px;
