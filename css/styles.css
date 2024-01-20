@@ -171,8 +171,8 @@ link {
 }
 
 .list-item:first-child {
-    appearance: width calc((100% - 3 * 24px) / 4);
-  }
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
 
 .section-header-three {
     font-size: 36px;
