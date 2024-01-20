@@ -140,9 +140,16 @@ link {
     padding: 120px 0;
 }
 
-/* .visually-hidden {
-    display: none;
-} */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
 
 .heading-list {
     font-weight: 500;
@@ -150,6 +157,7 @@ link {
     line-height: 1.2;
     letter-spacing: .02em;
     color: var(--sectionColor);
+    margin-bottom: 8px;
 }
 
 .section-two-list {
@@ -160,6 +168,10 @@ link {
 .p-list-item {
     line-height: 1.5;
     letter-spacing: .02em;
+}
+
+.list-item-sec-two {
+    width: calc((100% - 72px) / 4);
 }
 
 .section-header-three {
