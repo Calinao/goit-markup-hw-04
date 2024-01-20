@@ -210,9 +210,6 @@ link {
     margin-right: 0;
 }
 
-
-
-
 .section-four {
     background-color: #F4F4FD;
 }
@@ -224,12 +221,22 @@ link {
     letter-spacing: .02em;
     text-transform: capitalize  ;
     color: var(--sectionColor);
+    margin-bottom: 72px;
+}
+
+.section-four-list {
+    display:flex;
 }
 
 .section-four-list-item {
 
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
 
+.card-container {
+    padding: 32px 0;
 }
 
 .heading-list-four {
@@ -238,13 +245,15 @@ link {
     line-height: 1.2;
     letter-spacing: .02em;
     color: var(--sectionColor);
-
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .p-list-item-four {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: .02em;
+    text-align: center;
 }
 
 .index-footer {
