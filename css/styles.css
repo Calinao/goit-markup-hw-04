@@ -61,12 +61,13 @@ link {
     letter-spacing: .02em;
     color: var(--spanLogo);
     text-decoration: none;
-    padding: 24px 0;
+
 }
 
 .link-one {
     text-decoration: none;
     color: var(--spanLogo);
+    padding: 24px 0;
 }
 
 .link-one:hover {
