@@ -102,6 +102,7 @@ link {
 
 .section-one {
     background-color: var(--sectionColor);
+    padding: 188px 0;
 }
 
 .section-header {
