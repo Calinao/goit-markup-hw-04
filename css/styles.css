@@ -140,14 +140,21 @@ link {
     padding: 120px 0;
 }
 
+/* .visually-hidden {
+    display: none;
+} */
+
 .heading-list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: .02em;
     color: var(--sectionColor);
+}
 
-
+.section-two-list {
+    display: flex;
+    gap:24px;
 }
 
 .p-list-item {
