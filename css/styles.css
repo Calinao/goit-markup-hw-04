@@ -263,7 +263,7 @@ link {
     padding: 100px 0;
 }
 .footer-link {
-    display: inline-block;
+    display: inline-block !important;
     margin-bottom: 16px;
 }
 #footer-link {
