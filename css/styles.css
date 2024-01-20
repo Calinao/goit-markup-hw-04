@@ -92,6 +92,9 @@ link {
 
 .address {
     font-style: normal;
+
+}
+.address-list {
     display: flex;
     gap: 40px;
 }
