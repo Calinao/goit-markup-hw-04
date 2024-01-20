@@ -27,6 +27,7 @@ img {
     text-transform: uppercase;
     color: var(--logo);
     text-decoration: none;
+    margin-right: 76px;
 }
 
 link {
@@ -42,6 +43,11 @@ link {
 .list {
     list-style: none;
     
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link-one {
