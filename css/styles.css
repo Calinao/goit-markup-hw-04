@@ -172,9 +172,6 @@ link {
     letter-spacing: .02em;
 }
 
-.list-item {
-    flex-basis: calc((100% - 72px) / 4)
-}
 
 .section-header-three {
     font-size: 36px;
