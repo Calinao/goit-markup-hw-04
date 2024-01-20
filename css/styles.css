@@ -170,9 +170,9 @@ link {
     letter-spacing: .02em;
 }
 
-.list-item-sec-two {
-    width: calc((100% - 72px) / 4);
-}
+.list-item:first-child {
+    appearance: width calc((100% - 3 * 24px) / 4);
+  }
 
 .section-header-three {
     font-size: 36px;
