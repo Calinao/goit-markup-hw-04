@@ -163,7 +163,7 @@ link {
     letter-spacing: .02em;
 }
 
-.list-item:first-child {
+.section-two-list > .list-item:first-child {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
