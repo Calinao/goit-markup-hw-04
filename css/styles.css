@@ -170,11 +170,20 @@ link {
 
 .list-item {
     width: calc((100% - 72px) / 4);
+    appearance: margin-right 24px;
+}
+
+.list-item:last-child {
+    margin-right: 0;
 }
 
 .p-list-item {
     line-height: 1.5;
     letter-spacing: .02em;
+}
+
+.section-three {
+    padding-bottom: 120px;
 }
 
 .section-header-three {
@@ -184,7 +193,25 @@ link {
     letter-spacing: .02em;
     color: var(--sectionColor);
     text-transform: capitalize  ;
+    margin-bottom: 72px;
 }
+
+.section-three-list {
+    display:flex;
+    gap: 24px;
+}
+
+.section-three-list-item {
+    margin-right: 24px;
+    flex-basis: calc((100% - 3 * 16px) / 3);
+}
+
+.section-three-list-item:last-child {
+    margin-right: 0;
+}
+
+
+
 
 .section-four {
     background-color: #F4F4FD;
