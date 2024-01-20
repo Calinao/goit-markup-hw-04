@@ -260,12 +260,17 @@ link {
 
 .index-footer {
     background-color: var(--sectionColor);
+    padding: 100px 0;
 }
-
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer-text {
     color: var(--footerText);
     line-height: 1.5;
     letter-spacing: .02em;
+    max-width: 264px;
 }
 
 .footer-span-style {
@@ -273,6 +278,25 @@ link {
 }
 
 /* portfolio */
+
+.section-portfolio {
+    padding-top:96px;
+    padding-bottom:120px;
+}
+
+.section-portfolio-list {
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    margin-bottom: 72px;
+}
+.section-portfolio-list > li {
+    margin-right: 24px;
+}
+
+.section-portfolio-list > li:last-child {
+    margin-right: 0;
+}
 
 .portfolio-list-btn {
     font-family: "Roboto", sans-serif;
@@ -283,18 +307,30 @@ link {
     color: var(--portfolioListBtn);
     cursor: pointer;
     background-color: var(--footerText);
-
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .portfolio-list-btn:hover {
     color: #FFFFFF;
+    border: 1px solid transparent;
     background-color: var(--hovercolor);
 }
 
 .portfolio-list-btn:focus {
     color: #FFFFFF;
+    border: 1px solid transparent;
     background-color: var(--hovercolor);
 }
+
+.section-portfolio-list-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
+
 
 .portfolio-link-lists {
     text-decoration: none;
