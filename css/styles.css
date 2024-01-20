@@ -212,6 +212,7 @@ link {
 
 .section-four {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .section-header-four {
@@ -226,6 +227,7 @@ link {
 
 .section-four-list {
     display:flex;
+    gap: 24px;
 }
 
 .section-four-list-item {
