@@ -14,7 +14,10 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-
+img {
+    display: block;
+    /* Other styling properties for images, if needed */
+  }
 .nav-logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
