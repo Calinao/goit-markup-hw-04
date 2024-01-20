@@ -27,6 +27,9 @@ img {
     text-transform: uppercase;
     color: var(--logo);
     text-decoration: none;
+}
+
+.logo {
     margin-right: 76px;
 }
 
