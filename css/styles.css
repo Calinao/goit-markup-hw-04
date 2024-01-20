@@ -228,3 +228,10 @@ link {
     letter-spacing: .02em;
     color: var(--addressLink);
 }
+
+/* hw3 */
+
+.header-styles {
+    border: 1px solid #e7e9fc;
+    
+}
