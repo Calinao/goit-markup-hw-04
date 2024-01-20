@@ -164,7 +164,7 @@ link {
 
 .section-two-list {
     display: flex;
-    gap: 20px;
+    gap: 24px;
     justify-content: center;
 }
 
