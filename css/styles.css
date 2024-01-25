@@ -149,7 +149,7 @@ link {
     padding: 120px 0;
 }
 
-.section-two > .section-two-list {
+.list-item-images {
     display: flex;
     align-items: center;
     justify-content: center;
