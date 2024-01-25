@@ -291,6 +291,10 @@ link {
     background-color: #404bbf;
 }
 
+.soc-med-icon {
+    fill: var(--footerText);
+}
+
 .heading-list-four {
     font-weight: 500;
     font-size: 20px;
