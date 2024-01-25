@@ -149,6 +149,16 @@ link {
     padding: 120px 0;
 }
 
+.section-two > .section-two-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
