@@ -427,6 +427,7 @@ link {
     line-height: 1.5;
     letter-spacing: .02em;
     max-width: 264px;
+    margin-bottom: 16px
 }
 
 .footer-span-style {
