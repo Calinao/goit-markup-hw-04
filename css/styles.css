@@ -503,6 +503,7 @@ link {
 
 .portfolio-link-lists {
     text-decoration: none;
+    display: block;
 }
 
 .portfolio-link-lists:hover {
