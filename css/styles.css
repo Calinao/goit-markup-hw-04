@@ -7,6 +7,7 @@
     --sectionColor: #2e2f42;
     --footerText: #F4F4FD;
     --portfolioListBtn: #4d5ae5;
+    --sectionFiveLink: #8e8f99;
 }
 
 body {
@@ -310,6 +311,47 @@ link {
     line-height: 1.5;
     letter-spacing: .02em;
     text-align: center;
+}
+
+.section-five {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-five-heading {
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.section-five-list {
+    display: flex;
+    gap: 24px;
+}
+
+.section-five-list-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.section-five-link {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--sectionFiveLink);
+}
+
+.section-five-link:hover {
+    color: #404bbf;
+}
+
+.section-five-link:focus {
+    color: #404bbf;
 }
 
 .index-footer {
