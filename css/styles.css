@@ -8,6 +8,7 @@
     --footerText: #F4F4FD;
     --portfolioListBtn: #4d5ae5;
     --sectionFiveLink: #8e8f99;
+    --socmedfooter: #FFFFFF;
 }
 
 body {
@@ -364,6 +365,55 @@ link {
     background-color: var(--sectionColor);
     padding: 100px 0;
 }
+
+.footer-container {
+    align-items: baseline;
+}
+
+.footer-text-container {
+    margin-right: 120px;
+}
+.footer-soc-med-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--socmedfooter);
+    margin-bottom: 16px;
+}
+
+.footer-soc-med-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-soc-med-list-item {
+    height: 40px;
+    width: 40px;
+}
+
+.footer-soc-med-list-item-link {
+    height: 100%;
+    width: 100%;
+    background-color: var(--portfolioListBtn);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-soc-med-list-item-link:hover {
+    background-color: #31d0aa;
+}
+
+.footer-soc-med-list-item-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-soc-med-icon {
+    fill: var(--footerText);
+}
+
 .footer-link {
     display: inline-block !important;
     margin-bottom: 16px;
