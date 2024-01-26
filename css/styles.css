@@ -348,10 +348,16 @@ link {
 
 .section-five-link:hover {
     color: #404bbf;
+    border-color: #404bbf;
 }
 
 .section-five-link:focus {
     color: #404bbf;
+    border-color: #404bbf;
+}
+
+.customer-icon {
+    fill: currentColor;
 }
 
 .index-footer {
